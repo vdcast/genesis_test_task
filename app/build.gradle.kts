@@ -3,9 +3,9 @@ plugins {
     alias(libs.plugins.jetbrainsKotlinAndroid)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
-//    id("com.google.firebase.crashlytics")
-    id("com.google.gms.google-services")
-    id("com.google.firebase.crashlytics")
+    alias(libs.plugins.google.services)
+    alias(libs.plugins.crashlytics)
+    alias(libs.plugins.serialization)
 }
 
 android {
@@ -55,6 +55,9 @@ android {
 }
 
 dependencies {
+    // JSON
+    implementation(libs.kotlinx.serialization)
+
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.crashlytics)
