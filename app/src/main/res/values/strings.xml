@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Genesis Test Task</string>
+    <string name="book_app">Book App</string>
+    <string name="welcome_book_app">Welcome to Book App</string>
+    <string name="library">Library</string>
+    <string name="readers">Readers</string>
+    <string name="likes">Likes</string>
+    <string name="quotes">Quotes</string>
+    <string name="genre">Genre</string>
+    <string name="summary">Summary</string>
+    <string name="you_will_also_like">You will also like</string>
+    <string name="read_now">Read Now</string>
 </resources>

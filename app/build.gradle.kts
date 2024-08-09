@@ -55,6 +55,9 @@ android {
 }
 
 dependencies {
+    // Image loader
+    implementation(libs.coil.compose)
+
     // JSON
     implementation(libs.kotlinx.serialization)
 

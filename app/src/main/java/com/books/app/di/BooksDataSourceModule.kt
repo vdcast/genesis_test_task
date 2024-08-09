@@ -1,7 +1,7 @@
 package com.books.app.di
 
 import com.books.app.data.remote.RemoteConfigBooksDataSource
-import com.books.app.domain.BooksDataSource
+import com.books.app.domain.remote.BooksDataSource
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
